@@ -1,0 +1,301 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+.main{
+width: 1332px;
+height: 640px;
+border: 3px inset red;
+padding: 1px;
+margin: 5px;
+background-image:url("photo/баскетбол.jpg"); 	
+background-repeat: no-repeat;
+background-size: 1332px 640px;
+background-position:center center;
+text-align: center;}
+.player1{
+	width: 120px;
+	height: 120px;
+	background-image: url("photo/игрок бас.jpg");
+	background-repeat: no-repeat;
+	background-size: 120px 120px;
+	position: absolute;
+	top: 400px;
+	left: 150px;
+	animation-name: player1;
+	animation-duration: 7s;
+	animation-iteration-count:3;
+}.player2{
+	width: 120px;
+	height: 120px;
+	background-image: url("photo/игрок бас.jpg");
+	background-repeat: no-repeat;
+	background-size: 120px 120px;
+	position: absolute;
+	top: 270px;
+	left: 250px;
+	animation-name: player2;
+	animation-duration: 7s;
+	animation-iteration-count:3;
+}.player3{
+	width: 120px;
+	height: 120px;
+	background-image: url("photo/игрок бас.jpg");
+	background-repeat: no-repeat;
+	background-size: 120px 120px;
+	position: absolute;
+	top: 340px;
+	right:618px;
+	animation-name: player3;
+	animation-duration: 7s;
+	animation-iteration-count:3;
+}
+.boll{
+	width: 60px;
+	height: 60px;
+	background-image: url("photo/мяч баскетбола.jpg");
+	background-repeat: no-repeat;
+	background-size: 60px 60px;
+	position: absolute;
+	top: 400px;
+	left: 275px;
+	animation-name: boll;
+	animation-duration: 7s;
+	animation-iteration-count:3;
+	animation-direction: normal;
+}
+@keyframes boll{
+	0%{
+		left: 275px;
+		top: 400px;
+	}
+	10%{
+		left: 380px;
+		top: 500px;
+	}
+	20%{
+		left: 480px;
+		top: 400px;
+	}
+	30%{
+		left: 580px;
+		top: 500px;
+	}
+	40%{
+		left: 580px;
+		top: 500px;
+	}
+	50%{
+		left: 500px;
+		top: 250px;
+	}
+	60%{
+		left: 550px;
+		top: 300px;
+	}
+	70%{
+		left: 600px;
+		top: 300px;
+	}
+	80%{
+		left: 600px;
+		top: 300px;
+	}
+	85%{
+		left:750px;
+		top: 350px;
+	}
+	88%{
+		left:790px;
+		top: 350px;
+	}
+	89%{
+		left:795px;
+		top: 350px;
+	}
+	90%{
+		left:800px;
+		top: 350px;
+	}
+	91%{
+		left:805px;
+		top: 350px;
+	}
+	92%{
+		left:810px;
+		top: 350px;
+	}
+	93%{
+		left:830px;
+		top: 350px;
+	}
+	94%{
+		left:850px;
+		top: 300px;
+	}
+	95%{
+		left:900px;
+		top: 250px;
+	}
+	96%{
+		left:950px;
+		top: 200px;
+	}
+	97%{
+		left:1000px;
+		top: 190px;
+	}
+	98%{
+		left:1030px;
+		top: 185px;
+	}
+	99%{
+		left:1030px;
+		top: 200px;
+	}
+	100%{
+		left:1030px;
+		top: 250px;
+	}
+}
+@keyframes player1{
+	0%{
+	top: 400px;
+	left: 150px; 
+	}
+	10%{
+	top: 400px;
+	left: 250px; 
+	}
+	20%{
+	top: 400px;
+	left: 350px; 
+	}
+	30%{
+	top: 400px;
+	left: 450px; 
+	}
+}
+@keyframes player2{
+	0%{
+	top: 270px;
+	left: 250px; 
+	}
+	10%{
+	top: 270px;
+	left: 300px; 
+	}
+	20%{
+	top: 270px;
+	left: 320px; 
+	}
+	30%{
+	top: 270px;
+	left: 350px; 
+	}
+
+	40%{
+	top: 270px;
+	left: 380px; 
+	}
+	50%{
+	top: 270px;
+	left: 410px; 
+	}
+	60%{
+	top: 270px;
+	left: 440px; 
+	}
+	70%{
+	top: 270px;
+	left: 500px; 
+	}
+
+}
+@keyframes player3{
+	0%{
+	top: 340px;
+	right:618px;
+	}
+	10%{
+	top: 340px;
+	right:610px;
+	}
+	20%{
+	top: 340px;
+	right:600px;
+	}
+	30%{
+	top: 340px;
+	right:590px;
+	}
+	40%{
+	top: 340px;
+	right:585px;
+	}
+	50%{
+	top: 340px;
+	right:580px;
+	}
+	60%{
+	top: 340px;
+	right:575px;
+	}
+	70%{
+	top: 340px;
+	right:570px;
+	}
+	80%{
+	top: 340px;
+	right:565px;
+	}
+	85%{
+	top: 340px;
+	right:560px;
+	}
+	90%{
+	top: 340px;
+	right:540px;
+	}
+	92%{
+	top: 340px;
+	right:539px;
+	}
+	93%{
+	top: 340px;
+	right:538px;
+	}
+	94%{
+	top: 340px;
+	right:537px;
+	}
+	95%{
+	top: 340px;
+	right:536px;
+	}
+}
+.main p{
+	color: black;
+	font-style: italic;
+	font-size: 50px;
+	font-family: "arial";
+	opacity: 0;
+
+}
+.main p{
+	color: black;
+	font-style: italic;
+	font-size: 50px;
+	font-family: "arial";
+	animation-name: gol;
+	animation-duration: 1s;
+	animation-delay: 7s;
+	animation-iteration-count: 3;
+}
+@keyframes gol{
+			from{
+				opacity: 0;
+			}
+			to{
+				opacity: 1;
+			}
